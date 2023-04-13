@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>To-do-List</title>
+   <link rel="stylesheet" type="text/css" href="todo.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+   <!--<header>
+      <div class="dateandtime">
+         <h1 id="current-time"></h1>
+      </div>
+   </header>-->
+
+   <h1><span class="styling">TO-DO LIST</span></h1>
+   <div class="input_div">
+       <input class="input" type="text" placeholder="What do you want to do....">
+       <button class="addButton"><i class="fas fa-plus">ADD TASK</i></button>
+   </div>
+
+   <div class="container">
+     <!--<div class="item">
+         <input type="text" class="item_input" disabled>
+         <button class="editButton">EDIT</button>
+         <button class="removeButton">REMOVE</button>
+      </div>-->
+   </div>
+   <!--<script>
+      let time = document.getElementById("current-time");
+
+   setInterval(() =>{
+      let d = new Date();
+      time.innerHTML = d.toLocaleTimeString;
+   },1000)
+   </script>-->
+
+   
+   <script type="text/javascript" src="todo.js"></script>
+   <?php
+      include 'todo.php';
+   ?>
+</body>
+</html>
